@@ -2,6 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"]
-    }
-  }
+    },
+    
+  },
+"include": [
+  "app/_auth/sign-in/[[...sign-in]]/page.jsx"
+]
 }
